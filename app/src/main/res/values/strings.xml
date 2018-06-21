@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zonal_Desk</string>
+    <string name="app_title">Zonal Desk</string>
+    <string name="email_hint">E-mail</string>
+    <string name="pass_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register as new user</string>
+</resources>
