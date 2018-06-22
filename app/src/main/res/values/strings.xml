@@ -1,8 +1,21 @@
 <resources>
-    <string name="app_name">Zonal_Desk</string>
+    <string name="app_name">Zonal Desk</string>
+
     <string name="app_title">Zonal Desk</string>
+    <string name="customer_title">Zonal Desk Customer</string>
+
     <string name="email_hint">E-mail</string>
     <string name="pass_hint">Password</string>
     <string name="login_text">Login</string>
     <string name="register_text">Register as new user</string>
+
+
+    <string name="upload_button">Upload Documents</string>
+    <string name="raise_button">Raise Ticket</string>
+    <string name="ticket_button">Ticket Status</string>
+    <string name="payment_button">Payment</string>
+    <string name="feedback_button">Feedback</string>
+
+    <string name="menu_appinfo">App info</string>
+    <string name="menu_logout">Logout</string>
 </resources>

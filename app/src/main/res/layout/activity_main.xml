@@ -29,6 +29,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="25dp"
         android:text="@string/login_text"
+        android:onClick="login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
