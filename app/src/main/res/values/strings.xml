@@ -8,6 +8,7 @@
     <string name="pass_hint">Password</string>
     <string name="login_text">Login</string>
     <string name="register_text">Register as new user</string>
+    <string name="register_title">Registration</string>
 
 
     <string name="upload_button">Upload Documents</string>
@@ -18,4 +19,9 @@
 
     <string name="menu_appinfo">App info</string>
     <string name="menu_logout">Logout</string>
+    <string name="register_firstname">FirstName</string>
+    <string name="register_lastname">LastName</string>
+    <string name="register_phone_number">Phone Number</string>
+    <string name="register_place">Place</string>
+    <string name="register_submit">Submit</string>
 </resources>

@@ -4,18 +4,31 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.android.gms.signin.SignIn;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        findViewById(R.id.sign_in_button).setOnClickListener(this);
     }
 
     public void login(View view){
         //Verify Login credentials
-        Intent zonalintent = new Intent(this,CustomerActivity.class);
-        startActivity(zonalintent);
+        Intent zonalIntent = new Intent(this,CustomerActivity.class);
+        startActivity(zonalIntent);
+    }
+    public void register(View view){
+        Intent registerIntent = new Intent(this,RegisterActivity.class);
+        startActivity(registerIntent);
+    }
+
+    @Override
+    public void onClick(View v) {
+        Toast.makeText(this,"Under Development",Toast.LENGTH_SHORT).show();
     }
 }
