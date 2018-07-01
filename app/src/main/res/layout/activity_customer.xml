@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:background="@drawable/background"
     tools:context=".CustomerActivity">
 
     <TextView
@@ -15,14 +16,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/customer_title"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textSize="40sp"
         android:fontFamily="cursive"
+        android:textColor="@color/textPrimaryColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -36,30 +38,35 @@
             android:id="@+id/upload_button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/upload_button" />
+            android:text="@string/upload_button"
+            style="@style/ButtonTheme"/>
 
         <Button
             android:id="@+id/raise_button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/raise_button" />
+            android:text="@string/raise_button"
+            style="@style/ButtonThemeP"/>
 
         <Button
             android:id="@+id/ticket_button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/ticket_button" />
+            android:text="@string/ticket_button" 
+            style="@style/ButtonThemeP"/>
 
         <Button
             android:id="@+id/payment_button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/payment_button" />
+            android:text="@string/payment_button" 
+            style="@style/ButtonThemeP"/>
 
         <Button
             android:id="@+id/feedback_button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/feedback_button" />
+            android:text="@string/feedback_button"
+            style="@style/ButtonThemeP"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
