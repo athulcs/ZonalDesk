@@ -1,0 +1,187 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7a4548d6ad6ea3ce5b1a635cbe6b385f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\27cd831dcd0dfcac9e4a85f29ce69f47\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:17:1-39:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5efb648b7af3fb9ef420d429de2f1cdf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\94e4772781ced8b0e77e6a55b4f39895\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\31bb4551217951f4f91c330c8a4f3d18\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\3c841c5d8e328d23bd037c9ab14bcd09\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d18ba0356161becda873164ff7add623\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\4cb092d79d6df1bbd2d86cddcd82a28a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4ccf66e7c17ba9f89a8f5ad1bf59e18f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\24def9fbd03d3fda549f98198aa0f6ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0a24f8aba9017e827ce9c040017b9533\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6c3990cd4b6fc04dafe8c5457b823aa3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\baac61905adefeda6274c8602fb5be20\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5dfb203188af45f8feef079e97afc9cd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\14ab9b20f1c49effe545e96ca7ec3244\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\22c7ce292be0c3edf4787e39e3ec289a\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\27cd831dcd0dfcac9e4a85f29ce69f47\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\27cd831dcd0dfcac9e4a85f29ce69f47\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d18ba0356161becda873164ff7add623\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d18ba0356161becda873164ff7add623\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\4cb092d79d6df1bbd2d86cddcd82a28a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\4cb092d79d6df1bbd2d86cddcd82a28a\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:7:9-40
+	android:allowBackup
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.iacademia.zonal_desk.MainActivity
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.iacademia.zonal_desk.CustomerActivity
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:18:9-20:20
+	android:name
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:18:19-51
+activity#com.iacademia.zonal_desk.RegisterActivity
+ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:21:9-23:20
+	android:name
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:21:19-51
+uses-sdk
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7a4548d6ad6ea3ce5b1a635cbe6b385f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7a4548d6ad6ea3ce5b1a635cbe6b385f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\27cd831dcd0dfcac9e4a85f29ce69f47\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\27cd831dcd0dfcac9e4a85f29ce69f47\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5efb648b7af3fb9ef420d429de2f1cdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\5efb648b7af3fb9ef420d429de2f1cdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\94e4772781ced8b0e77e6a55b4f39895\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\94e4772781ced8b0e77e6a55b4f39895\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\31bb4551217951f4f91c330c8a4f3d18\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\31bb4551217951f4f91c330c8a4f3d18\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\3c841c5d8e328d23bd037c9ab14bcd09\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\3c841c5d8e328d23bd037c9ab14bcd09\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d18ba0356161becda873164ff7add623\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d18ba0356161becda873164ff7add623\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\4cb092d79d6df1bbd2d86cddcd82a28a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\4cb092d79d6df1bbd2d86cddcd82a28a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4ccf66e7c17ba9f89a8f5ad1bf59e18f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4ccf66e7c17ba9f89a8f5ad1bf59e18f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\24def9fbd03d3fda549f98198aa0f6ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\24def9fbd03d3fda549f98198aa0f6ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0a24f8aba9017e827ce9c040017b9533\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\0a24f8aba9017e827ce9c040017b9533\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6c3990cd4b6fc04dafe8c5457b823aa3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\6c3990cd4b6fc04dafe8c5457b823aa3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\baac61905adefeda6274c8602fb5be20\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\baac61905adefeda6274c8602fb5be20\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5dfb203188af45f8feef079e97afc9cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5dfb203188af45f8feef079e97afc9cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\14ab9b20f1c49effe545e96ca7ec3244\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\14ab9b20f1c49effe545e96ca7ec3244\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\22c7ce292be0c3edf4787e39e3ec289a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\22c7ce292be0c3edf4787e39e3ec289a\AndroidManifest.xml:20:5-44
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\9983f517d01e613e76da0950fbc3b7e9\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b0729d9f34fc104defb191747a0c707e\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fb5f4a9901e98456cf1799b097f4f873\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\4cb092d79d6df1bbd2d86cddcd82a28a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\4cb092d79d6df1bbd2d86cddcd82a28a\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0968bb1fc43b63ef6a880cbd3057a92e\AndroidManifest.xml:27:13-51
