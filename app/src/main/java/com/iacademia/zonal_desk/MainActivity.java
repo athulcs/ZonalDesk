@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.sign_in_button).setOnClickListener(this);
         appUpdater = new AppUpdater(this)
                 .setUpdateFrom(UpdateFrom.JSON)
-                .setUpdateJSON("https://raw.githubusercontent.com/athulcs/ZonalDesk/app/update-changelog.json");
+                .setUpdateJSON("https://raw.githubusercontent.com/athulcs/ZonalDesk/master/app/update-changelog.json");
         appUpdater.start();
     }
 
