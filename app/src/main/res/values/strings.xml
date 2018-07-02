@@ -11,7 +11,7 @@
     <string name="register_title">Registration</string>
 
 
-    <string name="upload_button">Upload Documents</string>
+    <string name="upload_button">Chat</string>
     <string name="raise_button">Raise Ticket</string>
     <string name="ticket_button">Ticket Status</string>
     <string name="payment_button">Payment</string>
