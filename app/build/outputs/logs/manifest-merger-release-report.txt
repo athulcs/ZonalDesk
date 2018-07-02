@@ -3,7 +3,6 @@ manifest
 ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.github.javiersantos:AppUpdater:2.6.5] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\AppUpdater-2.6.5.aar\38778f138e6b07f552161201a4e64241\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:design:27.0.2] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\386ce9829df36333e3299ac22f3bc72c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\decf04d79f0eee11b8c0c33b67637dd4\AndroidManifest.xml:17:1-22:12
@@ -27,16 +26,11 @@ MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Athul CS\.gradl
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Athul CS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\0629ae4ed9fa36538252b897a37acc65\AndroidManifest.xml:17:1-24:12
 INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
-		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
-	android:versionCode
 		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml
 		ADDED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from F:\Code\Iacademia\app\src\main\AndroidManifest.xml

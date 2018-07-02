@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.enums.Display;
 import com.github.javiersantos.appupdater.enums.UpdateFrom;
 import com.google.android.gms.signin.SignIn;
 
@@ -21,9 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.sign_in_button).setOnClickListener(this);
         appUpdater = new AppUpdater(this)
-                .setDisplay(Display.NOTIFICATION)
                 .setUpdateFrom(UpdateFrom.GITHUB)
-                .setGitHubUserAndRepo("athulcs", "zonaldesk");
+                .setGitHubUserAndRepo("athulcs", "ZonalDesk");
         appUpdater.start();
     }
 
@@ -39,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        appUpdater.start();
         Toast.makeText(this,"Under Development",Toast.LENGTH_SHORT).show();
     }
 }
