@@ -17,7 +17,7 @@
     <string name="payment_button">Payment</string>
     <string name="feedback_button">Feedback</string>
 
-    <string name="menu_appinfo">App info</string>
+    <string name="menu_update">Check Update</string>
     <string name="menu_logout">Logout</string>
     <string name="register_firstname">FirstName</string>
     <string name="register_lastname">LastName</string>
