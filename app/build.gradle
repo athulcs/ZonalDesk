@@ -6,8 +6,9 @@ android {
         applicationId "com.iacademia.zonal_desk"
         minSdkVersion 21
         targetSdkVersion 27
-        versionName '2.0.0.0'
+        versionName '1'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 1
     }
     buildTypes {
         release {
