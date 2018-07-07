@@ -15,7 +15,7 @@
     <style name="EditTextTheme">
         <item name="android:textColor">@color/textPrimaryColor</item>
         <item name="android:textColorHighlight">@color/textPrimaryColor</item>
-        <item name="android:textColorHint">@color/textPrimaryColor</item>
+        <item name="android:textColorHint">@color/textHintColor</item>
     </style>
     <style name="ButtonThemeP" parent="ButtonTheme">
         <item name="android:layout_marginTop">10dp</item>
