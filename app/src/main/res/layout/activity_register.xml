@@ -48,21 +48,11 @@
         app:layout_constraintTop_toBottomOf="@+id/register_title_tv">
 
         <EditText
-            android:id="@+id/register_fname_et"
+            android:id="@+id/register_name_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/register_firstname"
-            style="@style/EditTextTheme"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/register_lname_et"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:ems="10"
-            android:hint="@string/register_lastname"
             style="@style/EditTextTheme"
             android:inputType="textPersonName" />
 
@@ -75,15 +65,6 @@
             android:hint="@string/register_phone_number"
             style="@style/EditTextTheme"
             android:inputType="phone" />
-
-        <EditText
-            android:id="@+id/register_place_et"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            style="@style/EditTextTheme"
-            android:hint="@string/register_place"
-            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/register_email_et"
@@ -102,5 +83,15 @@
             style="@style/EditTextTheme"
             android:hint="@string/pass_hint"
             android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/register_conf_pass_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            style="@style/EditTextTheme"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

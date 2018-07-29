@@ -16,9 +16,18 @@
         <item name="android:textColor">@color/textPrimaryColor</item>
         <item name="android:textColorHighlight">@color/textPrimaryColor</item>
         <item name="android:textColorHint">@color/textHintColor</item>
+        <item name="android:textStyle">italic</item>
     </style>
     <style name="ButtonThemeP" parent="ButtonTheme">
         <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ZonalDeskNoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/ZDPrimary</item>
+        <item name="colorPrimaryDark">@color/ZDPrimaryDark</item>
+        <item name="colorAccent">@color/ZDAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
 </resources>

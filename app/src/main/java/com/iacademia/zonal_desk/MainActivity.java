@@ -1,62 +1,90 @@
 package com.iacademia.zonal_desk;
 
+import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 
-import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.google.android.gms.signin.SignIn;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
-    AppUpdater appUpdater;
+    ImageView zonal;
+    TextView title;
+    EditText ET_IP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
-        findViewById(R.id.sign_in_button).setOnClickListener(this);
-        appUpdater = new AppUpdater(this)
-                .setButtonDoNotShowAgain(null)
-                .setUpdateFrom(UpdateFrom.JSON)
-                .setUpdateJSON("https://raw.githubusercontent.com/athulcs/ZonalDesk/master/app/update-changelog.json");
-        appUpdater.start();
+
+        zonal = findViewById(R.id.zonal);
+        title = findViewById(R.id.heading);
+        ET_IP = findViewById(R.id.IP);
+        //Button go;
+        //go = findViewById(R.id.go);
+
+        ET_IP.setText("192.168.1.103");
+
+
+
+
+        /*Thread timer= new Thread(){
+            @Override
+            public void run() {
+                super.run();
+                try{
+                    sleep(1000);
+                    Intent intent=new Intent(MainActivity.this,LoginScreen.class);
+                    startActivity(intent);
+                    finish();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+        timer.start();*/
     }
 
-    public void login(View view){
-        //Verify Login credentials
-        Intent zonalIntent = new Intent(this,CustomerActivity.class);
-        startActivity(zonalIntent);
-    }
-    public void register(View view){
-        Intent registerIntent = new Intent(this,RegisterActivity.class);
-        startActivity(registerIntent);
-    }
+    private void writeToFile(String data, Context context) {
+        try {
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput("IP.txt", Context.MODE_PRIVATE));
+            outputStreamWriter.write(data);
+            outputStreamWriter.close();
+            //Toast.makeText(this, ""+getFilesDir(), Toast.LENGTH_SHORT).show();
+            //Log.d("GG", "file at:-   "+getFilesDir());
 
-    @Override
-    public void onClick(View v) {
-        Toast.makeText(this,"Under Development",Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.main_menu,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        super.onOptionsItemSelected(item);
-        switch (item.getItemId()){
-            case R.id.update:appUpdater.start();return true;
-            default: return false;
+        } catch (IOException e) {
+            Log.e("Exception", "File write failed: " + e.toString());
         }
+    }
+
+    public void go(View view) {
+
+        writeToFile(ET_IP.getText().toString(),this);
+
+        Thread timer = new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                try {
+                    sleep(10);
+                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                    startActivity(intent);
+                    finish();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+        timer.start();
     }
 }

@@ -24,4 +24,10 @@
     <string name="register_phone_number">Phone Number</string>
     <string name="register_place">Place</string>
     <string name="register_submit">Submit</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key"> </string>
+
 </resources>
