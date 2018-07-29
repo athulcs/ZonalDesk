@@ -112,8 +112,6 @@ public class BackgroundProcessUserCheck extends AsyncTask<String, Void, String> 
     @Override
     protected void onPreExecute() {
         //super.onPreExecute();
-        alertDialog = new AlertDialog.Builder(context).create();
-        alertDialog.setTitle("User Check");
     }
 
     @Override
@@ -121,13 +119,8 @@ public class BackgroundProcessUserCheck extends AsyncTask<String, Void, String> 
         //super.onPostExecute(aVoid);
         Log.d("BackgroundUserCheck", "postexec :" + result);
         this.result = result;
-        if (result.equals("No")) {
-            alertDialog.setMessage("EmailID / Phone is already registered!");
-            //alertDialog.show();
-            Toast.makeText(context, "EmailID / Phone is already registered!", Toast.LENGTH_SHORT).show();
         }
 
-    }
 
     @Override
     protected void onProgressUpdate(Void... values) {

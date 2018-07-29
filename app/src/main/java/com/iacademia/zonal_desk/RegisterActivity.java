@@ -3,6 +3,7 @@ package com.iacademia.zonal_desk;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -78,27 +79,22 @@ public class RegisterActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
+                BackgroundConnection backgroundConnection = new BackgroundConnection(this);
+                backgroundConnection.execute("Register",name.getText().toString(),
+                        phone.getText().toString(),
+                        email.getText().toString(),
+                        pass.getText().toString());
 
-                BackgroundProcessConfirmEmail backgroundProcessConfirmEmail = new BackgroundProcessConfirmEmail(this);
-                backgroundProcessConfirmEmail.execute("Confirm", email.getText().toString());
+                    name.setText("");
+                    phone.setText("");
+                    email.setText("");
+                    pass.setText("");
+                    confpass.setText("");
 
+                    Toast.makeText(RegisterActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
 
-                try {
-                    TimeUnit.MILLISECONDS.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                    finish();
 
-
-                name.setText("");
-                phone.setText("");
-                email.setText("");
-                pass.setText("");
-                confpass.setText("");
-
-                Toast.makeText(RegisterActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
-
-                finish();
             }
 
 
